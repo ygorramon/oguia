@@ -42,7 +42,7 @@ class EventServiceProvider extends ServiceProvider
             ]);
             $event->menu->addIn('desafios', [
                 'key' =>'meus-desafios',
-                'text'    => 'Meus Desafios',
+                'text'    => 'Meus Guias',
                 'url'     => '/admin/desafios/meus',
                 'label' =>Auth::user()->challenges()->where('status','ANALISE')->orWhere('status','RESPONDIDO')->count(),
         

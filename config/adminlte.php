@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'DESAFIO 7 DIAS',
+    'title' => 'O GUIA',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>DESAFIO</b>7 DIAS',
+    'logo' => '<b>O</b>GUIA',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image  elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Desafio 7 Dias',
+    'logo_img_alt' => 'O GUIA',
 
     /*
     |--------------------------------------------------------------------------
@@ -237,16 +237,12 @@ return [
         ],
 
         // Sidebar items:
-        ['header' => 'Respostas'],
-        [
-            'text' => 'Respostas',
-            'url'  => 'admin/situacoes',
-        ],
+      
         
-        ['header' => 'Desafios'],
+        ['header' => 'Guias'],
         
         [
-            'text'    => 'Desafios',
+            'text'    => 'Guias',
             'icon'    => 'fas fa-fw fa-share',
             'key'  => 'desafios',
 
@@ -291,26 +287,7 @@ return [
                     'url'     => '/admin/relatorios',
                     'icon'    => 'fas fa-fw fa-eye',
                 ],
-                [
-                    'text'    => 'Terapeutas',
-                    'url'     => '/admin/relatorios/terapeutas',
-                    'icon'    => 'fas fa-fw fa-eye',
-                ],
-                [
-                    'text'    => 'Desafios Enviados',
-                    'url'     => '/admin/relatorios/enviados',
-                    'icon'    => 'fas fa-fw fa-eye',
-                ],
-                [
-                    'text'    => 'Desafios Atrasados',
-                    'url'     => '/admin/relatorios/desafios-atrasados',
-                    'icon'    => 'fas fa-fw fa-eye',
-                ],
-                [
-                    'text'    => 'Chats Atrasados',
-                    'url'     => '/admin/relatorios/chats-atrasados',
-                    'icon'    => 'fas fa-fw fa-eye',
-                ],
+               
                 [
                     'text'    => 'Buscar Cliente',
                     'url'     => '/admin/relatorios/clients',
