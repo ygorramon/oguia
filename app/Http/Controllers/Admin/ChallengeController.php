@@ -103,6 +103,8 @@ class ChallengeController extends Controller
 
    public function responder($id)
    {
+      
+     
       if (!$challenge = $this->repository->find($id)) {
          return redirect()->back();
       }
@@ -142,7 +144,7 @@ class ChallengeController extends Controller
         $qtd_sinais_sono_tardio++;
        }
     }
-
+/*
     $passo1['orientacao']="";
     $passo1['sinalSono']="";
       $passo2['imaturidade'] = "";
@@ -760,11 +762,9 @@ class ChallengeController extends Controller
        if(!$passo3['duracaoSonecasRitual']==""){
          $passo3['duracaoSonecasRitual']=stringReplace($passo3['duracaoSonecasRitual'][rand(0,count($passo3['duracaoSonecasRitual'])-1)]->response, $client);                
        }
+       */
       return view('admin.challenges.meus.responder', [
          'challenge' => $challenge,
-         'passo1' => (object)$passo1,
-         'passo2' => (object)$passo2, 
-         'passo3' => (object)$passo3,
          'qtd_ritual_sonecas_longo' =>$qtd_ritual_sonecas_longo,
          'qtd_sonecas_inadequadas'=>$qtd_sonecas_inadequadas,
          'qtd_sinais_sono_tardio' =>$qtd_sinais_sono_tardio,

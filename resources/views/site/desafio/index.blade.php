@@ -27,11 +27,11 @@
 
                             <ul id="task-card" class="collection with-header animate fadeLeft">
                                 <li class="collection-header red">
-                                    <h5 class="task-card-title mb-3">Meus Desafios</h5>
+                                    <h5 class="task-card-title mb-3">Meus GUIAS</h5>
 
                                 </li>
                                 <table class="bordered">
-                                    <thead><th>Desafio</th><th>Status</th><td>Ações</td></thead>
+                                    <thead><th>Guia</th><th>Status</th><td>Ações</td></thead>
                                 @forelse ($challenges as $key => $challenge)
                                 <tr>
                                 <td>{{$key+1}}</td><td>{{$challenge->status}}
@@ -49,7 +49,7 @@
                                 <form action="{{route('desafio.store')}}" method="POST">
                                     @csrf
                                     <li class="collection-item dismissable">
-                                        <button class="btn waves-effect waves-light " type="submit"> Inicie um novo desafio </submit>
+                                        <button class="btn waves-effect waves-light " type="submit"> Inicie um novo Guia </submit>
                                 </form>
                                 </li>
                                 @endforelse
@@ -58,7 +58,7 @@
                                 <form action="{{route('desafio.store')}}" method="POST">
                                     @csrf
                                     <li class="collection-item dismissable">
-                                        <button class="btn waves-effect waves-light " type="submit"> Inicie um novo desafio </submit>
+                                        <button class="btn waves-effect waves-light " type="submit"> Inicie um novo Guia </submit>
                                     </li>
                                 </form>
                                 @endif

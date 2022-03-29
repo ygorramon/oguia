@@ -89,7 +89,6 @@ class ChallengeController extends Controller
         }
 
         if ($day > 1) {
-            if($this->repository->find($id)->client->liberado==1){
                 if (
                     !isset($this->repository->find($id)->analyzes()->where('day', $day - 1)->first()->day)
                     
@@ -97,15 +96,9 @@ class ChallengeController extends Controller
                 ) {
                     return redirect()->back();
                 } 
-            }
-            else
-            if (
-                !isset($this->repository->find($id)->analyzes()->where('day', $day - 1)->first()->day)
-                || !(date_format(now(), 'Y-m-d') >= date_format($challenge->analyzes()->where('day', $day - 1)->first()->created_at->addDays(1), 'Y-m-d'))
-
-            ) {
-                return redirect()->back();
-            }
+            
+           
+            
         }
 
 
@@ -135,22 +128,13 @@ class ChallengeController extends Controller
         }
         $challenge = $this->repository->find($id);
 
-        if ($this->repository->find($id)->client->liberado == 1) {
             if (
                 !isset($this->repository->find($id)->analyzes()->where('day', '7')->first()->day)
             ) {
                 return redirect()->back();
             }
 
-        }
         
-        else
-        if (
-            !isset($this->repository->find($id)->analyzes()->where('day', '7')->first()->day)
-            || !(date_format(now(), 'Y-m-d') >= date_format($challenge->analyzes()->where('day', '7')->first()->created_at->addDays(1), 'Y-m-d'))
-        ) {
-            return redirect()->back();
-        }
 
 
 
