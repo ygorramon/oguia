@@ -126,12 +126,12 @@
                               </div>
                             </li>
                              <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de sonecas/div>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de sonecas</div>
                               <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_rotina_soneca}}</textarea>
                               </div>
                             </li>
                              <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual noturno/div>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual noturno</div>
                               <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ritual_noturno}}</textarea>
                               </div>
                             </li>
@@ -257,12 +257,12 @@
                               </div>
                             </li>
                              <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de sonecas/div>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de sonecas</div>
                               <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_rotina_soneca}}</textarea>
                               </div>
                             </li>
                              <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual noturno/div>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual noturno</div>
                               <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ritual_noturno}}</textarea>
                               </div>
                             </li>
