@@ -175,48 +175,58 @@
                       <h4 class="card-title">Análise do Seu Guia (Clique em cada Atalho abaixo) </h4>
                     </div>
 
-                    <ul class="collapsible">
+                  <ul class="collapsible">
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 1</div>
-                        <div class="collapsible-body"> <textarea class="materialize-textarea" readonly > {{$challenge->Atalho1}}</textarea>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 1 - Respirar</div>
+                        <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho1}}</textarea>
                         </div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 2</div>
-                        <div class="collapsible-body"><textarea class="materialize-textarea" readonly> {{$challenge->Atalho2}}</textarea></div>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 2 - Observar o Bebê</div>
+                        <div class="collapsible-body"><textarea class="materialize-textarea" readonly> {{$challenge->atalho2}}</textarea></div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 3</div>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 3 - Descartar</div>
                         <div class="collapsible-body">
                           <ul class="collapsible">
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Despertar</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_despertar}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Cansaço demais</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_cansaco}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina Alimentar</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_rotina_alimentar}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Imaturidade</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_imaturidade}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de Sonecas</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_rotina_sonecas}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Estresse da mãe</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_estress}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Ambiente de Sonecas</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_ambiente_sonecas}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Salto de desenvolvimento</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_salto}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Sono Noturno</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_sono_noturno}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Angústia da separação</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_angustia}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Ambiente do Sono Noturno</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho3_ambiente_noturno}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Telas</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_telas}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Dor</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_dor}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Fome</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho3_fome}}</textarea>
                               </div>
                             </li>
                         </div>
@@ -227,19 +237,44 @@
                         <div class="collapsible-body">
                           <ul class="collapsible">
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Associações da Soneca</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho4_associacoes_sonecas}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ajuste de rotina</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ajustes}}</textarea>
                               </div>
                             </li>
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">place</i>Associações do Sono Noturno</div>
-                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->Atalho4_associacoes_noturno}}</textarea>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual do bom dia</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ritual_dia}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ajuste de ambiente</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ambienete}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina Alimentar</div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_rotina_alimentar}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Rotina de sonecas/div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_rotina_soneca}}</textarea>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="collapsible-header"><i class="material-icons">place</i>Ritual noturno/div>
+                              <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho4_ritual_noturno}}</textarea>
                               </div>
                             </li>
                           </ul>
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">place</i>Conclusão</div>
-                        <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->conclusao}}</textarea>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 5 - Descartar Associações</div>
+                        <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho5}}</textarea>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Atalho 6 - Aguardar</div>
+                        <div class="collapsible-body"> <textarea class="materialize-textarea" readonly> {{$challenge->atalho6}}</textarea>
                         </div>
                       </li>
                     </ul>
