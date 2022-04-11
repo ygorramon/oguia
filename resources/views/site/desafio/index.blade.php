@@ -35,7 +35,7 @@
                                 @forelse ($challenges as $key => $challenge)
                                 <tr>
                                 <td>{{$key+1}}</td><td>{{$challenge->status}}
-                                      @if($challenge->status=='RESPONDIDO') <br> ( Chat até <b>{{\Carbon\Carbon::parse($challenge->answered_at)->addDays(30)->format('d/m/y')}} </b> )
+                                      @if($challenge->status=='RESPONDIDO')
                             <br><br>
                              ( Restam <b>{{\Carbon\Carbon::parse($challenge->answered_at)->addDays(30)->diffInDays(now())}}</b> Dias de Chat ) 
                              @endif
