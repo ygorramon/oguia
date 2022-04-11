@@ -17,7 +17,7 @@
     {{ method_field('PUT') }}
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 1</h3>
+            <h3 class="card-title">Atalho 1</h3>
 
         </div>
         <div class="card-body">
@@ -72,14 +72,14 @@
             </div>
             
         </div>
-            <textarea name="passo1" class="form-control" style="height:auto">
-           {{$challenge->passo1}}
+            <textarea name="Atalho1" class="form-control" style="height:auto">
+           {{$challenge->Atalho1}}
         </textarea>
         </div>
     </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 2</h3>
+            <h3 class="card-title">Atalho 2</h3>
         </div>
         <div class="card-body">
         <div>
@@ -128,14 +128,14 @@
 
 
                     </div>
-            <textarea name="passo2" class="form-control"  style="height:auto">
-            {{$challenge->passo2}}
+            <textarea name="Atalho2" class="form-control"  style="height:auto">
+            {{$challenge->Atalho2}}
 </textarea>
             
         </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 3</h3>
+            <h3 class="card-title">Atalho 3</h3>
         </div>
         <div class="card-header">
             <h3 class="card-title ">Despertar</h3>
@@ -206,8 +206,8 @@
                 </div>
 
             </div>
-            <textarea name="passo3_despertar" class="form-control" style="height:auto" >
-          {{$challenge->passo3_despertar}}
+            <textarea name="Atalho3_despertar" class="form-control" style="height:auto" >
+          {{$challenge->Atalho3_despertar}}
             </textarea>
         </div>
         
@@ -217,8 +217,8 @@
             <h3 class="card-title ">Rotina Alimentar</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_rotina_alimentar" class="form-control" style="height:auto">
-            {{$challenge->passo3_rotina_alimentar}}
+            <textarea name="Atalho3_rotina_alimentar" class="form-control" style="height:auto">
+            {{$challenge->Atalho3_rotina_alimentar}}
 
             </textarea>
         </div>
@@ -226,8 +226,8 @@
             <h3 class="card-title ">Rotina de Sonecas</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_rotina_sonecas" class="form-control" style="height:auto">
-            {{$challenge->passo3_rotina_sonecas}}
+            <textarea name="Atalho3_rotina_sonecas" class="form-control" style="height:auto">
+            {{$challenge->Atalho3_rotina_sonecas}}
 
             </textarea>
         </div>
@@ -235,8 +235,8 @@
             <h3 class="card-title ">Ambiente de Sonecas</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_ambiente_sonecas" class="form-control" style="height:auto">
-            {{$challenge->passo3_ambiente_sonecas}}
+            <textarea name="Atalho3_ambiente_sonecas" class="form-control" style="height:auto">
+            {{$challenge->Atalho3_ambiente_sonecas}}
 
             </textarea>
         </div>
@@ -244,8 +244,8 @@
             <h3 class="card-title ">Sono Noturno</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_sono_noturno" class="form-control" style="height:auto">
-            {{$challenge->passo3_sono_noturno}}
+            <textarea name="Atalho3_sono_noturno" class="form-control" style="height:auto">
+            {{$challenge->Atalho3_sono_noturno}}
 
             </textarea>
         </div>
@@ -253,22 +253,22 @@
             <h3 class="card-title ">Ambiente de Sono Noturno</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_ambiente_noturno" class="form-control" style="height:auto">
-            {{$challenge->passo3_ambiente_noturno}}
+            <textarea name="Atalho3_ambiente_noturno" class="form-control" style="height:auto">
+            {{$challenge->Atalho3_ambiente_noturno}}
             </textarea>
         </div>
 
     </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 4</h3>
+            <h3 class="card-title">Atalho 4</h3>
         </div>
         <div class="card-header">
             <h3 class="card-title ">Associações de Sonecas</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo4_associacoes_sonecas" class="form-control" style="height:auto">
-            {{$challenge->passo4_associacoes_sonecas}}
+            <textarea name="Atalho4_associacoes_sonecas" class="form-control" style="height:auto">
+            {{$challenge->Atalho4_associacoes_sonecas}}
             </textarea>
 
         </div>
@@ -276,8 +276,8 @@
             <h3 class="card-title ">Associações de Sono Noturno</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo4_associacoes_noturno" class="form-control" style="height:auto">
-            {{$challenge->passo4_associacoes_noturno}}
+            <textarea name="Atalho4_associacoes_noturno" class="form-control" style="height:auto">
+            {{$challenge->Atalho4_associacoes_noturno}}
 </textarea>
         </div>
 

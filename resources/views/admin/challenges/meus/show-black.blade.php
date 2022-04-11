@@ -344,7 +344,7 @@
 
                     <div>
                         <label for="ritualBomDia">Associações da Soneca:</label>
-                        @if($challenge->form->napAssociationWhiteNoise=='S')
+                        @if($challenge->form->naAtalhociationWhiteNoise=='S')
                         <span class="badge bg-black">Ruído Branco</span>
                         <br>
                         @endif
@@ -352,15 +352,15 @@
                         <span class="badge bg-black">Adormece e dorme toda a soneca no colo</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationCloth=='S')
+                        @if($challenge->form->naAtalhociationCloth=='S')
                         <span class="badge bg-black">Naninha</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationPacifier=='S')
+                        @if($challenge->form->naAtalhociationPacifier=='S')
                         <span class="badge bg-black">Chupeta</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationSuckFinger=='S')
+                        @if($challenge->form->naAtalhociationSuckFinger=='S')
                         <span class="badge bg-black">Chupar dedo</span>
                         <br>
                         @endif
@@ -368,20 +368,20 @@
                         <span class="badge bg-black">Carrinho/Bebê conforto</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationSuckle=='S')
+                        @if($challenge->form->naAtalhociationSuckle=='S')
                         <span class="badge bg-black">Mamar para dormir</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationCC=='S')
+                        @if($challenge->form->naAtalhociationCC=='S')
                         <span class="badge bg-black">Cama Compartilhada</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationLap=='S')
+                        @if($challenge->form->naAtalhociationLap=='S')
                         <span class="badge bg-black">Colo</span>
                         <br>
                         @endif
-                        @if($challenge->form->napAssociationOther!='N')
-                        <span class="badge bg-black">{{$challenge->form->napAssociationOther}}</span>
+                        @if($challenge->form->naAtalhociationOther!='N')
+                        <span class="badge bg-black">{{$challenge->form->naAtalhociationOther}}</span>
                         <br>
                         @endif
 
@@ -520,7 +520,7 @@
                         <br>
                         @endif
 
-                        @if($challenge->form->napAssociationCloth=='S')
+                        @if($challenge->form->naAtalhociationCloth=='S')
                         <span class="badge bg-black">Naninha</span>
                         <br>
                         @endif

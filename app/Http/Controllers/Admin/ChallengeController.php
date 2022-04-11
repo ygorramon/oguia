@@ -786,33 +786,51 @@ class ChallengeController extends Controller
 
       $challenge = $this->repository->with('client')->find($id);
       if($challenge->status=='RESPONDIDO'){
+      
          $challenge->update([
-            'status' => 'RESPONDIDO', 'passo1' => $request->passo1,
-            'passo2' => $request->passo2,
-            'passo3_despertar' => $request->passo3_despertar,
-            'passo3_rotina_alimentar' => $request->passo3_rotina_alimentar,
-            'passo3_rotina_sonecas' => $request->passo3_rotina_sonecas,
-            'passo3_ambiente_sonecas' => $request->passo3_ambiente_sonecas,
-            'passo3_sono_noturno' => $request->passo3_sono_noturno,
-            'passo3_ambiente_noturno' => $request->passo3_ambiente_noturno,
-            'passo4_associacoes_sonecas' => $request->passo4_associacoes_sonecas,
-            'passo4_associacoes_noturno' => $request->passo4_associacoes_noturno,
-            'conclusao' => $request->conclusao,
+            'status' => 'RESPONDIDO', 'atalho1' => $request->atalho1,
+            'atalho2' => $request->atalho2,
+            'atalho3_cansaco' => $request->atalho3_cansaco,
+            'atalho3_imaturidade' => $request->atalho3_imaturidade,
+            'atalho3_estress' => $request->atalho3_estress,
+            'atalho3_salto' => $request->atalho3_salto,
+            'atalho3_angustia' => $request->atalho3_angustia,
+            'atalho3_telas' => $request->atalho3_telas,
+            'atalho3_dor' => $request->atalho3_dor,
+            'atalho3_fome' => $request->atalho3_fome,
+            'atalho4_ajustes'=> $request->atalho4_ajustes,
+            'atalho4_ritual_dia' => $request->atalho4_ritual_dia,
+            'atalho4_ambienete' => $request->atalho4_ambienete,
+            'atalho4_rotina_alimentar' => $request->atalho4_rotina_alimentar,
+            'atalho4_rotina_soneca' => $request->atalho4_rotina_soneca,
+            'atalho4_ritual_noturno' => $request->atalho4_ritual_noturno,
+            'atalho5' => $request->atalho5,
+            'atalho6' => $request->atalho6,
+           
          ]);
       }
       if($challenge->status=='ANALISE'){
+      
          $challenge->update([
-            'status' => 'RESPONDIDO', 'answered_at'=>now(), 'passo1' => $request->passo1,
-            'passo2' => $request->passo2,
-            'passo3_despertar' => $request->passo3_despertar,
-            'passo3_rotina_alimentar' => $request->passo3_rotina_alimentar,
-            'passo3_rotina_sonecas' => $request->passo3_rotina_sonecas,
-            'passo3_ambiente_sonecas' => $request->passo3_ambiente_sonecas,
-            'passo3_sono_noturno' => $request->passo3_sono_noturno,
-            'passo3_ambiente_noturno' => $request->passo3_ambiente_noturno,
-            'passo4_associacoes_sonecas' => $request->passo4_associacoes_sonecas,
-            'passo4_associacoes_noturno' => $request->passo4_associacoes_noturno,
-            'conclusao' => $request->conclusao,
+            'status' => 'RESPONDIDO', 'answered_at'=>now(),
+            'atalho1' => $request->atalho1,
+            'atalho2' => $request->atalho2,
+            'atalho3_cansaco' => $request->atalho3_cansaco,
+            'atalho3_imaturidade' => $request->atalho3_imaturidade,
+            'atalho3_estress' => $request->atalho3_estress,
+            'atalho3_salto' => $request->atalho3_salto,
+            'atalho3_angustia' => $request->atalho3_angustia,
+            'atalho3_telas' => $request->atalho3_telas,
+            'atalho3_dor' => $request->atalho3_dor,
+            'atalho3_fome' => $request->atalho3_fome,
+            'atalho4_ajustes'=> $request->atalho4_ajustes,
+            'atalho4_ritual_dia' => $request->atalho4_ritual_dia,
+            'atalho4_ambienete' => $request->atalho4_ambienete,
+            'atalho4_rotina_alimentar' => $request->atalho4_rotina_alimentar,
+            'atalho4_rotina_soneca' => $request->atalho4_rotina_soneca,
+            'atalho4_ritual_noturno' => $request->atalho4_ritual_noturno,
+            'atalho5' => $request->atalho5,
+            'atalho6' => $request->atalho6,
          ]);
          if($challenge->client->bonus==1){
             $challenge->notify(new ChallengeBonusNotification());

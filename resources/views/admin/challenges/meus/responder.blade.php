@@ -17,7 +17,7 @@
     {{ method_field('PUT') }}
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 1</h3>
+            <h3 class="card-title">Atalho 1 - Respirar</h3>
 
         </div>
         <div class="card-body">
@@ -86,14 +86,14 @@
                 
             </div>
         </div>
-            <textarea name="passo1" class="form-control" style="height:auto">
+            <textarea name="atalho1" class="form-control" style="height:auto">
            
         </textarea>
         </div>
     </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 2</h3>
+            <h3 class="card-title">Atalho 2 - Observar o Bebê</h3>
         </div>
         <div class="card-body">
         <div>
@@ -142,16 +142,93 @@
 
 
                     </div>
-            <textarea name="passo2" class="form-control"  style="height:auto">
+            <textarea name="atalho2" class="form-control"  style="height:auto">
            </textarea>
             
         </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 3</h3>
+            <h3 class="card-title">Atalho 3 - Descartar</h3>
+            
+        </div>
+          <div class="card-body">
+          </div>
+            <div class="card-header">
+            <h3 class="card-title ">Cansaço demais  </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_cansaco" class="form-control" style="height:auto">
+           
+
+            </textarea>
         </div>
         <div class="card-header">
-            <h3 class="card-title ">Despertar</h3>
+            <h3 class="card-title ">Imaturidade  </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_imaturidade" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+       <div class="card-header">
+            <h3 class="card-title ">Estresse da mãe  </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_estress" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+  <div class="card-header">
+            <h3 class="card-title ">Salto de desenvolvimento   </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_salto" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+        <div class="card-header">
+            <h3 class="card-title ">Angústia da separação    </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_angustia" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+         <div class="card-header">
+            <h3 class="card-title ">Telas    </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_telas" class="form-control" style="height:auto"></textarea>
+        </div>
+         <div class="card-header">
+            <h3 class="card-title ">Dor    </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_dor" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+         <div class="card-header">
+            <h3 class="card-title ">Fome    </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho3_fome" class="form-control" style="height:auto">
+           
+
+            </textarea>
+        </div>
+
+           
+    </div>
+
+    <div class="card card-info">
+        <div class="card-header">
+            <h3 class="card-title ">Atalho 4 </h3>
         </div>
         <div class="card-body">
         <div>
@@ -226,51 +303,54 @@
                 </div>
 
             </div>
-            <textarea name="passo3_despertar" class="form-control" style="height:auto" >
-        
-            </textarea>
+            
         </div>
         
             
+        </div>
+        <div class="card-header">
+            <h3 class="card-title ">Ajuste de rotina </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho4_ajustes" class="form-control" style="height:auto"></textarea>
+        </div>
+        <div class="card-header">
+            <h3 class="card-title ">Ritual do bom dia </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho4_ritual_dia" class="form-control" style="height:auto">
+            
+            </textarea>
+        </div>
+        <div class="card-header">
+            <h3 class="card-title ">Ajuste de ambiente </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho4_ambienete" class="form-control" style="height:auto">
+           
+            </textarea>
         </div>
         <div class="card-header">
             <h3 class="card-title ">Rotina Alimentar</h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_rotina_alimentar" class="form-control" style="height:auto">
-           
-
-            </textarea>
-        </div>
-        <div class="card-header">
-            <h3 class="card-title ">Rotina de Sonecas</h3>
-        </div>
-        <div class="card-body">
-            <textarea name="passo3_rotina_sonecas" class="form-control" style="height:auto">
-            
-            </textarea>
-        </div>
-        <div class="card-header">
-            <h3 class="card-title ">Ambiente de Sonecas</h3>
-        </div>
-        <div class="card-body">
-            <textarea name="passo3_ambiente_sonecas" class="form-control" style="height:auto">
-           
-            </textarea>
-        </div>
-        <div class="card-header">
-            <h3 class="card-title ">Sono Noturno</h3>
-        </div>
-        <div class="card-body">
-            <textarea name="passo3_sono_noturno" class="form-control" style="height:auto">
+            <textarea name="atalho4_rotina_alimentar" class="form-control" style="height:auto">
          
             </textarea>
         </div>
         <div class="card-header">
-            <h3 class="card-title ">Ambiente de Sono Noturno</h3>
+            <h3 class="card-title ">Rotina de sonecas </h3>
         </div>
         <div class="card-body">
-            <textarea name="passo3_ambiente_noturno" class="form-control" style="height:auto">
+            <textarea name="atalho4_rotina_soneca" class="form-control" style="height:auto">
+          
+            </textarea>
+        </div>
+         <div class="card-header">
+            <h3 class="card-title ">Ritual noturno  </h3>
+        </div>
+        <div class="card-body">
+            <textarea name="atalho4_ritual_noturno" class="form-control" style="height:auto">
           
             </textarea>
         </div>
@@ -278,29 +358,24 @@
     </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Passo 4</h3>
+            <h3 class="card-title">Atalho 5 - Descartar Associações</h3>
         </div>
-        <div class="card-header">
-            <h3 class="card-title ">Associações de Sonecas</h3>
+            <div class="card-body">
+            <textarea name="atalho5" class="form-control" style="height:auto"></textarea>
         </div>
-        <div class="card-body">
-            <textarea name="passo4_associacoes_sonecas" class="form-control" style="height:auto"></textarea>
-        </div>
-        <div class="card-header">
-            <h3 class="card-title ">Associações de Sono Noturno</h3>
-        </div>
-        <div class="card-body">
-            <textarea name="passo4_associacoes_noturno" class="form-control" style="height:auto"></textarea>
-        </div>
+        
 
 
     </div>
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Conclusão</h3>
+            <h3 class="card-title">Atalho 6 - Aguardar</h3>
         </div>
         <div class="card-body">
-            <textarea name="conclusao" class="form-control"></textarea>
+            <textarea name="atalho6" class="form-control" style="height:auto">
+
+
+            </textarea>
         </div>
     </div>
     <button class="btn btn-primary" type="submit">Enviar</button>
