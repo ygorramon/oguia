@@ -24,7 +24,7 @@
     @foreach($challenge->chat()->first()->messages as $message)
     @if($message->type==1)
     <label>Mãe ({{$challenge->client->name}}) / E-mail ({{$challenge->client->email}}) / Bebê ({{$challenge->client->nameBaby}}):  em - {{formatDateAndTimeHours($message->created_at)}} </label>
-    <textarea class="form-control" style="background-color: green;color:#fff;height:auto" readonly > {{$message->content}}</textarea>
+    <textarea class="form-control" style="background-color: rgb(200, 162, 200);color:#fff;height:auto" readonly > {{$message->content}}</textarea>
    @endif
    @if($message->type==2)
     <label>Eu:  em - {{formatDateAndTimeHours($message->created_at)}}</label>
@@ -44,7 +44,7 @@
     @foreach($challenge->chat()->first()->messages as $message)
     @if($message->type==1)
     <label>Mãe: ({{$challenge->client->name}})  / Bebê ({{$challenge->client->nameBaby}}): em - {{formatDateAndTimeHours($message->created_at)}}</label>
-    <textarea class="form-control"  style="background-color: green;color:#fff;height:auto" readonly > {{$message->content}}</textarea>
+    <textarea class="form-control"  style="background-color: rgb(200, 162, 200);color:#fff;height:auto" readonly > {{$message->content}}</textarea>
     @endif
     @if($message->type==2)
     <label>Eu:  em - {{formatDateAndTimeHours($message->created_at)}}</label>
